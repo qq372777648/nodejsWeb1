@@ -6,7 +6,7 @@ var app = express();
 // json类型body
 app.use(bodyParser.json()); //所有post请求 的请求体 还原成json
 // query string类型body
-app.use(bodyParser.urlencoded({//url 解码
+app.use(bodyParser.urlencoded({//url 解码 xx
 	extended: false
 }));
 
